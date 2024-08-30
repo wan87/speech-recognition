@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SpeechRecognition'
-copyright = '2019, Adam Zvada'
-author = 'Adam Zvada'
+copyright = '2019, Wan 87'
+author = 'Wan 87'
 
 # The short X.Y version
 version = ''
@@ -132,7 +132,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'SpeechRecognition.tex', 'SpeechRecognition Documentation',
-     'Adam Zvada', 'manual'),
+     'Wan 87', 'manual'),
 ]
 
 

@@ -84,7 +84,7 @@ class DigitDataset(DatasetBase):
 
 def test_dataset():
 
-    dataset_path = '/Users/adamzvada/Documents/School/BP/SpeechRecognition/audio_numbers'
+    dataset_path = '/Users/wan87/Documents/School/BP/SpeechRecognition/audio_numbers'
 
     digit_dataset = DigitDataset(dataset_path=dataset_path, num_features=13, num_context=4)
 

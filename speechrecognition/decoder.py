@@ -69,7 +69,7 @@ def predict(wav_file_path, config_file):
 
 if __name__ == "__main__":
 
-    #wav_file_path = '/Users/adamzvada/Desktop/VCTK-Corpus/wav48/p298/p298_003.wav'
+    #wav_file_path = '/Users/wan87/Desktop/VCTK-Corpus/wav48/p298/p298_003.wav'
     wav_file_path = '../audio_numbers/0/0_jackson_1.wav'
 
     decoded_text = predict(wav_file_path, '../src/config/lstm_ctc.yml')

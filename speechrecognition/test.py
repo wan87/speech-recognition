@@ -7,8 +7,8 @@ from sklearn.preprocessing import scale
 from src.dataset.DataSet import read_data_sets
 
 num_classes = 10 # digits 0 - 9
-path_to_training_data = '/Users/adamzvada/Documents/School/BP/SpeechRecognition/audio_numbers/'
-filename = '/Users/adamzvada/Documents/School/BP/SpeechRecognition/audio_numbers'
+path_to_training_data = '/Users/wan87/Documents/School/BP/SpeechRecognition/audio_numbers/'
+filename = '/Users/wan87/Documents/School/BP/SpeechRecognition/audio_numbers'
 
 
 dataset = read_data_sets(path_to_training_data)

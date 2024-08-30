@@ -134,7 +134,7 @@ class VCTKDataset(DatasetBase):
 
 def test_dataset():
 
-    dataset_path = '/Users/adamzvada/Documents/School/BP/VCTK-Corpus'
+    dataset_path = '/Users/wan87/Documents/School/BP/VCTK-Corpus'
 
     vctk_dataset = VCTKDataset(dataset_path=dataset_path, num_speakers=1, num_features=13, num_context=4)
 

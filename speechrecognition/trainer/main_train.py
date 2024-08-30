@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     from speechrecognition.config.config_reader import ConfigReader
 
-    #config_path = '/Users/adamzvada/Documents/School/BP/SpeechRecognition/config/lstm_ctc.yml'
-    config_path = '/Users/adamzvada/Documents/School/BP/SpeechRecognition/test/fixtures/config/lstm_ctc.yml'
+    #config_path = '/Users/wan87/Documents/School/BP/SpeechRecognition/config/lstm_ctc.yml'
+    config_path = '/Users/wan87/Documents/School/BP/SpeechRecognition/test/fixtures/config/lstm_ctc.yml'
 
     main_train(ConfigReader(config_path))

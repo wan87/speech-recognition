@@ -16,7 +16,7 @@ Example of such a configuration file.
             name: &dataset_name digits
             label_type: numbers
             lang: ENG
-            dataset_path: /Users/adamzvada/Documents/School/BP/SpeechRecognition/audio_numbers
+            dataset_path: /Users/wan87/Documents/School/BP/SpeechRecognition/audio_numbers
         feature:
             name: mfcc
             feature_size: 13
@@ -36,7 +36,7 @@ Example of such a configuration file.
             dropout_prob: 0.5
         model:
             model_type: &model_type RNN
-            tensorboard_path: /Users/adamzvada/Documents/School/BP/SpeechRecognition/tensorboard_log/digits
-            trained_path:  !join [/Users/adamzvada/Documents/School/BP/SpeechRecognition/trained_models/, *dataset_name, /]
+            tensorboard_path: /Users/wan87/Documents/School/BP/SpeechRecognition/tensorboard_log/digits
+            trained_path:  !join [/Users/wan87/Documents/School/BP/SpeechRecognition/trained_models/, *dataset_name, /]
             model_description: !join [*model_type, _, l, *num_layers, _, h, *num_hidden, _, b, *batch_size]
             restore_trained_model:
